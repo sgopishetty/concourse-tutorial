@@ -1,5 +1,6 @@
 #!/bin/sh
 
 pwd
-echo $BUILD_ID > file1
+mkdir some-files
+echo $BUILD_ID > some-files/file1
 
